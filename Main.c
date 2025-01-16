@@ -9,7 +9,7 @@ int main()
     printf("The circumference of the circle is: %f\n", circumference); /*Prints the circumference of the circle as a float*/
     printf("The circumference of the circle is: %d\n", circumferenceInt); /*Prints the circumference of the circle as an int*/
     printf("The radius of the circle is: %.2f\n", radius); /*Prints the radius of the circle as a float with 2 decimal places*/
-    printf("The radius of the circle is: %.3f\n", radius); /*Prints the radius of the circle as a float with 3 decimal places*/
+    printf("The circumference of the circle is: %.3f\n", circumference); /*Prints the circumference of the circle as a float with 3 decimal places*/
 
     const double planck = 6.626 * 10e-34; /*Variable for Planck constant. Plancks constant is 6.626 mutiplied by 10 to the power of -34*/
     printf("The Planck constant is: %e\n", planck); /*Prints the Planck constant in scientific notation*/
